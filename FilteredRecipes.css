@@ -1,0 +1,77 @@
+.recipes-page {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.recipes-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #3f4f1d;
+}
+
+.recipes-list {
+  margin-top: 20px;
+}
+
+.recipe-card {
+  background: white;
+  border: 2px solid #cfdac0;
+  border-radius: 18px;
+  padding: 14px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  cursor: pointer;
+}
+
+.recipe-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.recipe-info {
+  flex: 1;
+}
+
+.recipe-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  color: #3f4f1d;
+}
+
+.recipe-sub {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.recipe-time {
+  font-size: 14px;
+}
+
+.recipe-flag {
+  width: 30px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.recipe-rating {
+  font-size: 14px;
+  color: #555;
+}
+
+.bookmark-icon {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  font-size: 20px;
+}

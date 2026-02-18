@@ -1,0 +1,89 @@
+.pickup-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(to bottom, #faf7ef, #f5eeda);
+  font-family: "Helvetica", sans-serif;
+}
+
+.pickup-points-bar {
+  width: 85%;
+  margin: 0 auto 20px;
+  background: #6d7f43;
+  padding: 12px;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.star-icon {
+  width: 20px;
+}
+
+.pickup-title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.pickup-subtitle {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+.branches-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.branch-card {
+  display: flex;
+  gap: 15px;
+  border: 2px solid #cfcfcf;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: white;
+  cursor: pointer;
+}
+
+.branch-info h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.branch-location {
+  margin: 2px 0 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.branch-time {
+  font-size: 13px;
+  color: #777;
+}
+
+.pickup-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 25px auto;
+}
+
+.pickup-back,
+.pickup-place {
+  width: 45%;
+  padding: 14px;
+  background: #6d7f43;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}

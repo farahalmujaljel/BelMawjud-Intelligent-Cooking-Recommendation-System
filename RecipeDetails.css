@@ -1,0 +1,165 @@
+.details-page {
+  padding: 20px;
+  background: #faf7ee;
+  min-height: 100vh;
+}
+
+.details-title {
+  text-align: center;
+  color: #5b6b38;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.details-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  border: 2px solid #a8b58a;
+  margin-top: 20px;
+}
+
+/* -------- القسم العلوي -------- */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.image-top-right {
+  width: 170px;
+  height: 170px;
+  border-radius: 18px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.recipe-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #3b4a24;
+  margin: 0;
+}
+
+.rating-flag-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 30px; 
+}
+
+.rating-star {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.flag {
+  width: 35px;
+  height: 25px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* -------- Sections -------- */
+.section {
+  margin-top: 20px;
+}
+
+.steps-text p {
+  margin: 10px 0;
+  line-height: 1.45;
+}
+
+/* -------- الوقت -------- */
+.time-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 25px;
+  font-size: 15px;
+  color: #444;
+  font-weight: 500;
+}
+.time-icon {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  margin-top: -2px;
+}
+
+
+/* -------- Buttons -------- */
+.buttons-row {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.back-btn,
+.next-btn {
+  width: 130px;
+  padding: 12px 0;
+  background: #7a8f4e;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.back-btn:hover,
+.next-btn:hover {
+  background: #6b7e45;
+}
+.rating-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.rating {
+  font-size: 22px;
+  font-weight: 600;
+  color: #758b55;
+}
+
+.flag {
+  width: 55px;
+  height: auto;
+  border-radius: 4px;
+}
+/* BACK BUTTON فقط في صفحة التفاصيل */
+
+
+
+
+
+
+.buttons-row {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* spacing أفضل */
+}
+
+/* نفس الشكل والحجم للزرين */
+.action-btn {
+  width: 140px;
+  height: 45px;
+  background-color: #7a8f4e;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background-color: #6b7e45;
+}
+
+

@@ -1,0 +1,150 @@
+.rewards-page {
+  width: 100%;
+  padding-top: 15px;
+  min-height: 100vh;
+  background-color: #f7f0dd;
+  font-family: "Helvetica";
+}
+.points-text {
+  color: white !important;
+  font-size: 18px !important;   /* أصغر شوي */
+  font-weight: 600;
+}
+
+
+
+/* POINTS BAR */
+.points-bar {
+  width: 180px;
+  margin: 10px auto 20px;
+  background: #6b7f43;
+  padding: 10px 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  .points-bar {
+  color: red !important;
+}
+
+}
+
+.points-icon {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+/* TITLE */
+.rewards-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #6b7f43;
+}
+
+/* REWARD LIST */
+.rewards-list {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+.reward-name {
+  font-size: 17px;
+  color: #333;
+}
+
+.reward-points-box {
+  background-color: #6b7f43;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.reward-star {
+  width: 18px;
+  height: 18px;
+}
+
+/* NEXT BUTTON */
+.next-btn {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  background-color: #6b7f43;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+}
+
+/* BOTTOM NAV */
+.bottom-nav {
+  width: 100%;
+  background: #6b7f43;
+  position: fixed;
+  bottom: 0;
+  left: 0;        /* FIX: يخلّيه يبدأ من اليسار */
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.nav-item {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+.nav-item img {
+  width: 28px;
+  height: 28px;
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-item.active span {
+  font-weight: bold;
+}
+
+
+.reward-row {
+  background: #f8f0d9;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.reward-row.selected {
+  background-color: #fff7c2 !important;
+  border: 2px solid #e4c74d !important;
+  box-shadow: 0 0 8px rgba(228, 199, 77, 0.35);
+  transform: scale(0.99);
+}
+
+.disabled {
+  opacity: 0.35;
+  filter: grayscale(40%);
+  pointer-events: none;
+}
+
+
+
+
+
+

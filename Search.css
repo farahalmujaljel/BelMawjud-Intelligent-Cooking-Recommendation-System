@@ -1,0 +1,169 @@
+/* ====================== */
+/*   SEARCH PAGE WRAPPER  */
+/* ====================== */
+
+.search-page {
+  width: 100%;
+  padding-top: 15px;
+  font-family: "Helvetica", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f7f0dd 0%, #f7f0dd 40%, white 100%);
+}
+
+/* ====================== */
+/*       POINTS BAR       */
+/* ====================== */
+
+.points-bar {
+  width: 160px;
+  margin: 10px auto 20px;
+  background: #fff;
+  border: 2px solid #6b7f43;
+  padding: 8px 12px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.points-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.points-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #6b7f43;
+}
+
+/* ====================== */
+/*      SEARCH BUTTON     */
+/* ====================== */
+
+.search-button {
+  background-color: #6b7f43;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  margin: 15px auto 20px;
+  display: block;
+}
+
+/* ====================== */
+/*    SEARCH SUBTITLE     */
+/* ====================== */
+
+.search-subtitle {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #555;
+}
+
+/* ====================== */
+/*    SEARCH INPUT BOX    */
+/* ====================== */
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #c8c8c8;
+  border-radius: 12px;
+  padding: 10px 12px;
+  width: 90%;
+  margin: 0 auto 18px;
+}
+
+.search-input-container input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+  color: #333;
+}
+
+.search-input-container .search-icon {
+  font-size: 18px;
+  color: #8a8a8a;
+  margin-right: 8px;
+}
+
+/* ====================== */
+/*     CATEGORY TITLES    */
+/* ====================== */
+
+.category-title {
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 22px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+/* ====================== */
+/*   INGREDIENT CHIPS     */
+/* ====================== */
+
+.chips-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ingredient-box {
+  border: 1px solid #6b7f43;
+  padding: 6px 18px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 5px 8px;
+  font-size: 15px;
+  color: #6b7f43;
+  background: white;
+  transition: 0.2s ease-in-out;
+}
+
+.ingredient-box.selected {
+  background-color: #6b7f43;
+  color: white;
+}
+
+/* ====================== */
+/*      FOOTER BUTTONS    */
+/* ====================== */
+
+.footer-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 25px auto;
+}
+
+.footer-btn {
+  width: 45%;
+  background-color: #6b7f43;
+  color: white;
+  padding: 12px 0;
+  border-radius: 12px;
+  border: none;
+  font-size: 17px;
+}
+
+.footer-btn.disabled {
+  opacity: 0.4;
+}
+
+/* ====================== */
+/*     ERROR MESSAGE      */
+/* ====================== */
+
+.error-text {
+  text-align: center;
+  color: #d9534f;
+  font-size: 14px;
+  margin-top: -8px;
+}

@@ -1,0 +1,118 @@
+/* FULL PAGE BACKGROUND LIKE THE DESIGN */
+body {
+  background: linear-gradient(
+    to bottom,
+    #f7f0dd 0%,
+    #fffdf7 40%,
+    white 100%
+  );
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+/* MAIN CONTAINER */
+.signin-container {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 30px 20px 70px;
+  text-align: center;
+}
+
+/* LOGO */
+.signin-logo {
+  width: 80%;
+  max-width: 330px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* TITLE */
+.signin-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+/* INPUTS */
+.input-box {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 10px;
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.error-border {
+  border-color: red;
+}
+
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+/* PASSWORD FIELD WRAPPER */
+.password-wrapper {
+  position: relative;
+}
+
+.eye-icon {
+  width: 22px;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* SIGN IN BUTTON */
+.signin-btn {
+  width: 100%;
+  background: #6b7f43;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* OR TEXT */
+.or-text {
+  margin: 18px 0 10px;
+  color: #333;
+  font-size: 14px;
+}
+
+/* SOCIAL ICONS */
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 15px;
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+/* SIGN UP TEXT */
+.signup-text {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.signup-text a {
+  color: #6b7f43;
+  font-weight: bold;
+  text-decoration: none;
+}
